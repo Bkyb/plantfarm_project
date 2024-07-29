@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>plantfarm_ui</name>
+  <version>0.0.0</version>
+  <description>plantfarm_project</description>
+  <maintainer email="kimptang33@gmail.com">bkyb</maintainer>
+  <license>http://www.apache.org/licenses/LICENSE-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_action</depend>
+  <depend>std_msgs﻿</depend>
+  <depend>plantfarm_msgs</depend>
+  <depend>rviz_common</depend>
+
+  <depend>qtbase5-dev</depend>
+  <depend>libboost-date-time-dev</depend>
+  <depend>libboost-thread-dev</depend>
+  
+  <depend>libqt5-core</depend>
+  <depend>libqt5-gui</depend>
+  <depend>libqt5-widgets</depend>
+  
+  <depend>pcl_ros</depend>
+  <depend>pcl_conversions</depend>
+  
+  <exec_depend>libqt5-opengl</exec_depend>
+  
+  <depend>yaml-cpp</depend>
+  
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
